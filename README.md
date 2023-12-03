@@ -24,12 +24,13 @@ The problem is to predict do/don't they use a contraceptive method of choice bas
 
 ## Inferences:
 
-Comparison Between Models:
+# Comparison Between Models:
 
 * Cart with stands the top model with Accuracy of 73% on train data and 67% on test data.
 * Optimized Logistic Regression Model's Accuracy is 67% on Train data and 65% on Test data same is for LDA model as well.
 * CART with GridsearchCV model's Accuracy is 81% on Train data and 63* on test data,The accuracy of test data is not comparable with train data this may be due to Overfitting.
-* Comparison in Terms of Accuracy,Recall,Precision and AUC value:
+  
+# Comparison in Terms of Accuracy,Recall,Precision and AUC value:
 
 * The CART model from all the other models seems to be performing the best in terms of Accuracy, Recall and Precision values.
 * The CART model also gives the most important features according to which the split in the Decision Tree was made.
